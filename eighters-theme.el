@@ -3,6 +3,7 @@
 
 (custom-theme-set-faces
  'eighters
+ '(fringe ((t (:foreground "grey50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray25"))))
@@ -49,6 +50,6 @@
  '(diff-changed ((t (:background "gray25"))))
  '(diff-refine-changed ((t (:weight bold))))
  '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1"))))
- '(default ((t (:background "gray22" :foreground "white smoke" :height 100 :family "DejaVu Sans Mono")))))
+ '(default ((t (:background "gray22" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono")))))
 
 (provide-theme 'eighters)
