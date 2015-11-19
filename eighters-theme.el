@@ -3,13 +3,14 @@
 
 (custom-theme-set-faces
  'eighters
+ '(default ((t (:background "gray22" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
  '(fringe ((t (:foreground "grey50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
- '(highlight ((t (:background "gray25"))))
+ '(highlight ((t (:background "gray30"))))
  '(region ((t (:background "blue" :foreground "white"))))
  '(font-lock-builtin-face ((t (:foreground "steelblue1" :weight bold))))
- '(font-lock-comment-face ((t (:foreground "red1" :slant italic))))
+ '(font-lock-comment-face ((t (:foreground "grey50" :slant italic))))
  '(font-lock-constant-face ((t (:foreground "magenta"))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "steelblue1" :weight bold))))
@@ -53,7 +54,6 @@
  '(diff-refine-removed ((t (:foreground "orange" :inherit (diff-refine-changed)))))
  '(diff-changed ((t (:background "gray25"))))
  '(diff-refine-changed ((t (:weight bold))))
- '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1"))))
- '(default ((t (:background "gray22" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono")))))
+ '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1")))))
 
 (provide-theme 'eighters)
