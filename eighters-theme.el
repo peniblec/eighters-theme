@@ -54,6 +54,7 @@
  '(diff-refine-removed ((t (:foreground "orange" :inherit (diff-refine-changed)))))
  '(diff-changed ((t (:background "gray25"))))
  '(diff-refine-changed ((t (:weight bold))))
- '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1")))))
+ '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1"))))
+ '(which-func ((t (:inherit (font-lock-function-name-face))))))
 
 (provide-theme 'eighters)
