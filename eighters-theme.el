@@ -55,6 +55,7 @@
  '(diff-changed ((t (:background "gray25"))))
  '(diff-refine-changed ((t (:weight bold))))
  '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1"))))
- '(which-func ((t (:inherit (font-lock-function-name-face))))))
+ '(which-func ((t (:inherit (font-lock-function-name-face)))))
+ '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier")))))
 
 (provide-theme 'eighters)
