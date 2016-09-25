@@ -4,7 +4,7 @@
 (custom-theme-set-faces
  'eighters
  '(default ((t (:background "gray22" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
- '(fringe ((t (:foreground "grey50"))))
+ '(fringe ((t (:background "gray22" :foreground "grey50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray30"))))
