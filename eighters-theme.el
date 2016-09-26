@@ -11,7 +11,7 @@
  '(region ((t (:background "steel blue" :foreground "white"))))
  '(font-lock-builtin-face ((t (:foreground "steelblue1" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "grey50" :slant italic))))
- '(font-lock-constant-face ((t (:foreground "maroon2"))))
+ '(font-lock-constant-face ((t (:foreground "maroon1"))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "steelblue1" :weight bold))))
  '(font-lock-keyword-face ((t (:foreground "cyan" :weight bold))))
@@ -57,6 +57,8 @@
  '(diff-refine-changed ((t (:weight bold))))
  '(term-color-blue ((t (:foreground "steelblue1" :background "steelblue1"))))
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
- '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier")))))
+ '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier"))))
+ '(erc-input-face ((t (:foreground "brown1"))))
+ '(erc-my-nick-face ((t (:foreground "brown1" :weight bold)))))
 
 (provide-theme 'eighters)
