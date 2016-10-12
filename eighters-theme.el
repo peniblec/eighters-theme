@@ -17,6 +17,8 @@
  '(font-lock-keyword-face ((t (:foreground "cyan" :weight bold))))
  '(font-lock-preprocessor-face ((t (:inherit (font-lock-builtin-face)))))
  '(font-lock-string-face ((t (:foreground "lime green" :slant italic))))
+ '(font-lock-regexp-grouping-backslash ((t (:foreground "olivedrab4"))))
+ '(font-lock-regexp-grouping-construct ((t (:foreground "olivedrab2" :weight bold))))
  '(font-lock-type-face ((t (:foreground "green3" :slant italic))))
  '(font-lock-variable-name-face ((t (:foreground "gold"))))
  '(link ((t (:underline t :foreground "steelblue1"))))
