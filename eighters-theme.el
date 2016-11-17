@@ -28,7 +28,6 @@
  '(lazy-highlight ((t (:foreground "darkturquoise" :background "darkcyan"))))
  '(match ((t (:background "royalblue3"))))
  '(mode-line ((t (:background "grey11" :foreground "white smoke" :box (:line-width -1 :style released-button)))))
- '(mode-line-buffer-id ((t (:foreground "gold" :weight bold))))
  '(compilation-mode-line-exit ((t (:background "green" :foreground "black" :weight bold))))
  '(compilation-mode-line-fail ((t (:background "red" :foreground "black" :weight bold))))
  '(compilation-mode-line-run ((t (:background "gold" :foreground "black" :weight bold))))
