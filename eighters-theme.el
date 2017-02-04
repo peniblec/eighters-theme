@@ -3,11 +3,11 @@
 
 (custom-theme-set-faces
  'eighters
- '(default ((t (:background "gray22" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
+ '(default ((t (:background "gray20" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
  '(fringe ((t (:foreground "grey50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
- '(highlight ((t (:background "gray30"))))
+ '(highlight ((t (:background "gray25"))))
  '(region ((t (:background "steel blue" :foreground "white"))))
  '(font-lock-builtin-face ((t (:foreground "steelblue1" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "grey50" :slant italic))))
@@ -27,7 +27,6 @@
  '(isearch-fail ((t (:background "red2"))))
  '(lazy-highlight ((t (:foreground "darkturquoise" :background "darkcyan"))))
  '(match ((t (:background "royalblue3"))))
- '(mode-line ((t (:background "grey11" :foreground "white smoke" :box (:line-width -1 :style released-button)))))
  '(compilation-mode-line-exit ((t (:background "green" :foreground "black" :weight bold))))
  '(compilation-mode-line-fail ((t (:background "red" :foreground "black" :weight bold))))
  '(compilation-mode-line-run ((t (:background "gold" :foreground "black" :weight bold))))
@@ -60,6 +59,7 @@
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
  '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier"))))
  '(erc-input-face ((t (:foreground "brown1"))))
- '(erc-my-nick-face ((t (:foreground "brown1" :weight bold)))))
+ '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
+ '(magit-section-highlight ((t (:inherit (highlight))))))
 
 (provide-theme 'eighters)
