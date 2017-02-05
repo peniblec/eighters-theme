@@ -28,6 +28,7 @@
  '(lazy-highlight ((t (:foreground "darkturquoise" :background "darkcyan"))))
  '(match ((t (:background "royalblue3"))))
  '(error ((t (:foreground "red" :weight bold))))
+ '(header-line ((t (:box (:line-width -1 :style released-button)))))
  '(mode-line ((t (:background "black" :foreground "grey75" :inverse-video t :box (:line-width -1 :style released-button)))))
  '(mode-line-buffer-id ((t (:background "black" :foreground "white smoke" :weight bold))))
  '(ediff-even-diff-A ((t (:background "gray25"))))
