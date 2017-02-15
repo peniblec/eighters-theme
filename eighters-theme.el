@@ -21,6 +21,7 @@
  '(font-lock-regexp-grouping-construct ((t (:foreground "olivedrab2" :weight bold))))
  '(font-lock-type-face ((t (:foreground "green3" :slant italic))))
  '(font-lock-variable-name-face ((t (:foreground "gold"))))
+ '(completions-common-part ((t (:inherit (font-lock-comment-face)))))
  '(link ((t (:underline t :foreground "steelblue1"))))
  '(custom-group-tag ((t (:weight bold :foreground "steelblue1" :height 1.2 :inherit (variable-pitch)))))
  '(custom-variable-tag ((t (:weight bold :foreground "steelblue1"))))
