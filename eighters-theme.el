@@ -63,6 +63,7 @@
  '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier"))))
  '(erc-input-face ((t (:foreground "brown1"))))
  '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
- '(magit-section-highlight ((t (:inherit (highlight))))))
+ '(magit-section-highlight ((t (:inherit (highlight)))))
+ '(magit-diff-context-highlight ((t (:foreground "grey70" :inherit (magit-section-highlight))))))
 
 (provide-theme 'eighters)
