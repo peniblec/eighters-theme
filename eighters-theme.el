@@ -16,10 +16,10 @@
  '(font-lock-function-name-face ((t (:foreground "steelblue1" :weight bold))))
  '(font-lock-keyword-face ((t (:foreground "cyan" :weight bold))))
  '(font-lock-preprocessor-face ((t (:inherit (font-lock-builtin-face)))))
- '(font-lock-string-face ((t (:foreground "lime green" :slant italic))))
+ '(font-lock-string-face ((t (:foreground "green3" :slant italic))))
  '(font-lock-regexp-grouping-backslash ((t (:foreground "olivedrab4"))))
  '(font-lock-regexp-grouping-construct ((t (:foreground "olivedrab2" :weight bold))))
- '(font-lock-type-face ((t (:foreground "green3" :slant italic))))
+ '(font-lock-type-face ((t (:foreground "green3"))))
  '(font-lock-variable-name-face ((t (:foreground "gold"))))
  '(completions-common-part ((t (:inherit (font-lock-comment-face)))))
  '(link ((t (:underline t :foreground "steelblue1"))))
@@ -65,5 +65,10 @@
  '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
  '(magit-section-highlight ((t (:inherit (highlight)))))
  '(magit-diff-context-highlight ((t (:foreground "grey70" :inherit (magit-section-highlight))))))
+
+(custom-theme-set-variables 'eighters
+ '(ansi-color-names-vector
+   ["black" "red" "green3" "gold" "steelblue1" "maroon1" "cyan"
+    "white smoke"]))
 
 (provide-theme 'eighters)
