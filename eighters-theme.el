@@ -67,7 +67,6 @@
  '(term-color-white ((t (:foreground "white smoke" :background "white smoke"))))
  '(term-color-yellow ((t (:foreground "gold" :background "gold"))))
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
- '(Info-quoted ((t (:inherit (font-lock-string-face) :family "courier"))))
  '(sh-heredoc ((t (:foreground "gold"))))
  '(erc-input-face ((t (:foreground "brown1"))))
  '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
