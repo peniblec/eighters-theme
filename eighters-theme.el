@@ -4,13 +4,13 @@
 (custom-theme-set-faces
  'eighters
  '(default ((t (:background "gray20" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
- '(fringe ((t (:foreground "grey50"))))
+ '(fringe ((t (:foreground "gray50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray25"))))
- '(region ((t (:background "steel blue" :foreground "white"))))
+ '(region ((t (:background "steel blue" :foreground "white smoke"))))
  '(font-lock-builtin-face ((t (:foreground "steelblue1" :weight bold))))
- '(font-lock-comment-face ((t (:foreground "grey50" :slant italic))))
+ '(font-lock-comment-face ((t (:foreground "gray50" :slant italic))))
  '(font-lock-constant-face ((t (:foreground "maroon1"))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "steelblue1" :weight bold))))
@@ -31,9 +31,9 @@
  '(error ((t (:foreground "red" :weight bold))))
  '(header-line ((t (:box (:line-width 3 :style released-button)))))
  '(mode-line ((t (:inverse-video t))))
- '(mode-line-inactive ((t (:foreground "grey70" :background "grey25" :inherit (mode-line)))))
+ '(mode-line-inactive ((t (:foreground "gray70" :background "gray25" :inherit (mode-line)))))
  '(mode-line-buffer-id ((t (:weight bold))))
- '(vertical-border ((t (:foreground "grey50"))))
+ '(vertical-border ((t (:foreground "gray50"))))
  '(ediff-even-diff-A ((t (:background "gray25"))))
  '(ediff-odd-diff-A ((t (:background "gray25"))))
  '(ediff-even-diff-B ((t (:background "gray25"))))
@@ -71,7 +71,7 @@
  '(erc-input-face ((t (:foreground "brown1"))))
  '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
  '(magit-section-highlight ((t (:inherit (highlight)))))
- '(magit-diff-context-highlight ((t (:foreground "grey70" :inherit (magit-section-highlight))))))
+ '(magit-diff-context-highlight ((t (:foreground "gray70" :inherit (magit-section-highlight))))))
 
 (custom-theme-set-variables 'eighters
  '(ansi-color-names-vector
