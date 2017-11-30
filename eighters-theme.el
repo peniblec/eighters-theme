@@ -1,14 +1,16 @@
 (deftheme eighters
   "Eighters gonna eight.")
 
+;; TODO: make comment foreground lighter? (eg ala linum, shadow)
+
 (custom-theme-set-faces
  'eighters
- '(default ((t (:background "gray20" :foreground "white smoke" :height 90 :family "DejaVu Sans Mono"))))
+ '(default ((t (:background "gray20" :foreground "gainsboro" :height 90 :family "DejaVu Sans Mono"))))
  '(fringe ((t (:foreground "gray50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray25"))))
- '(region ((t (:background "steel blue" :foreground "white smoke"))))
+ '(region ((t (:background "steel blue" :foreground "gainsboro"))))
  '(font-lock-builtin-face ((t (:foreground "steelblue1" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "gray50" :slant italic))))
  '(font-lock-constant-face ((t (:foreground "maroon1"))))
@@ -64,7 +66,7 @@
  '(term-color-green ((t (:foreground "green3" :background "green3"))))
  '(term-color-magenta ((t (:foreground "maroon1" :background "maroon1"))))
  '(term-color-red ((t (:foreground "red" :background "red"))))
- '(term-color-white ((t (:foreground "white smoke" :background "white smoke"))))
+ '(term-color-white ((t (:foreground "gainsboro" :background "gainsboro"))))
  '(term-color-yellow ((t (:foreground "gold" :background "gold"))))
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
  '(sh-heredoc ((t (:foreground "gold"))))
@@ -76,6 +78,6 @@
 (custom-theme-set-variables 'eighters
  '(ansi-color-names-vector
    ["black" "red" "green3" "gold" "steelblue1" "maroon1" "cyan"
-    "white smoke"]))
+    "gainsboro"]))
 
 (provide-theme 'eighters)
