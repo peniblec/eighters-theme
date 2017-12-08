@@ -71,9 +71,7 @@
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
  '(sh-heredoc ((t (:foreground "gold"))))
  '(erc-input-face ((t (:foreground "brown1"))))
- '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
- '(magit-section-highlight ((t (:inherit (highlight)))))
- '(magit-diff-context-highlight ((t (:foreground "gray70" :inherit (magit-section-highlight))))))
+ '(erc-my-nick-face ((t (:foreground "brown1" :weight bold)))))
 
 (custom-theme-set-variables 'eighters
  '(ansi-color-names-vector
