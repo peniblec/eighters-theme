@@ -1,11 +1,17 @@
 (deftheme eighters
   "Eighters gonna eight.")
 
-;; TODO: make comment foreground lighter? (eg ala linum, shadow)
+;; TODO: make comment foreground brighter? (eg ala linum, shadow)
+;; TODO: make "bold" face whiter? (see Man-overstrike)
+;; TODO: try to make buffer-id stand out again?
+
+;; The default face's font and height are not defined, so that they
+;; can be set individually for different computers in .Xresources; see
+;; xrdb(1), Xsession(5) and (emacs) Fonts.
 
 (custom-theme-set-faces
  'eighters
- '(default ((t (:background "gray20" :foreground "gainsboro" :height 90 :family "DejaVu Sans Mono"))))
+ '(default ((t (:background "gray20" :foreground "gainsboro"))))
  '(fringe ((t (:foreground "gray50"))))
  '(escape-glyph ((t (:foreground "red1"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
