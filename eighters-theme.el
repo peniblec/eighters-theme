@@ -13,7 +13,7 @@
  'eighters
  '(default ((t (:background "gray20" :foreground "gainsboro"))))
  '(fringe ((t (:foreground "gray50"))))
- '(escape-glyph ((t (:foreground "red1"))))
+ '(escape-glyph ((t (:foreground "red2"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray25"))))
  '(region ((t (:background "steel blue" :foreground "gainsboro"))))
@@ -36,7 +36,7 @@
  '(isearch-fail ((t (:background "red2"))))
  '(lazy-highlight ((t (:foreground "darkturquoise" :background "darkcyan"))))
  '(match ((t (:background "royalblue3"))))
- '(error ((t (:foreground "red" :weight bold))))
+ '(error ((t (:foreground "red2" :weight bold))))
  '(header-line ((t (:box (:line-width 3 :style released-button)))))
  '(mode-line ((t (:inverse-video t))))
  '(mode-line-inactive ((t (:foreground "gray70" :background "gray25" :inherit (mode-line)))))
@@ -71,7 +71,7 @@
  '(term-color-cyan ((t (:foreground "cyan" :background "cyan"))))
  '(term-color-green ((t (:foreground "green3" :background "green3"))))
  '(term-color-magenta ((t (:foreground "maroon1" :background "maroon1"))))
- '(term-color-red ((t (:foreground "red" :background "red"))))
+ '(term-color-red ((t (:foreground "red2" :background "red2"))))
  '(term-color-white ((t (:foreground "gainsboro" :background "gainsboro"))))
  '(term-color-yellow ((t (:foreground "gold" :background "gold"))))
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
@@ -81,7 +81,7 @@
 
 (custom-theme-set-variables 'eighters
  '(ansi-color-names-vector
-   ["black" "red" "green3" "gold" "steelblue1" "maroon1" "cyan"
+   ["black" "red2" "green3" "gold" "steelblue1" "maroon1" "cyan"
     "gainsboro"]))
 
 (provide-theme 'eighters)
