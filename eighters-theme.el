@@ -3,7 +3,7 @@
 
 ;; TODO: make comment foreground brighter? (eg ala linum, shadow)
 ;; TODO: make "bold" face whiter? (see Man-overstrike)
-;; TODO: try to make buffer-id stand out again?
+;; TODO: make diff faces stand out more
 
 ;; The default face's font and height are not defined, so that they
 ;; can be set individually for different computers in .Xresources; see
@@ -60,8 +60,8 @@
  '(ediff-fine-diff-Ancestor ((t (:background "#681048"))))
  '(diff-header ((t (:foreground "steelblue1" :weight bold))))
  '(diff-file-header ((t (:foreground "cyan" :weight bold))))
- '(diff-added ((t (:inherit (diff-changed) :foreground "steel blue"))))
- '(diff-refine-added ((t (:inherit (diff-refine-changed) :foreground "dodger blue"))))
+ '(diff-added ((t (:foreground "steel blue" :inherit (diff-changed)))))
+ '(diff-refine-added ((t (:foreground "dodger blue" :inherit (diff-refine-changed)))))
  '(diff-removed ((t (:foreground "orange3" :inherit (diff-changed)))))
  '(diff-refine-removed ((t (:foreground "orange" :inherit (diff-refine-changed)))))
  '(diff-changed ((t (:background "gray25"))))
@@ -77,7 +77,13 @@
  '(which-func ((t (:inherit (font-lock-function-name-face)))))
  '(sh-heredoc ((t (:foreground "gold"))))
  '(erc-input-face ((t (:foreground "brown1"))))
- '(erc-my-nick-face ((t (:foreground "brown1" :weight bold)))))
+ '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
+ '(magit-diff-added ((t (:inherit (diff-added)))))
+ '(magit-diff-added-highlight ((t (:inherit (diff-added)))))
+ '(magit-diff-removed ((t (:inherit (diff-removed)))))
+ '(magit-diff-removed-highlight ((t (:inherit (diff-removed)))))
+ '(magit-diffstat-added ((t (:foreground "steel blue"))))
+ '(magit-diffstat-removed ((t (:foreground "orange3")))))
 
 (custom-theme-set-variables 'eighters
  '(ansi-color-names-vector
