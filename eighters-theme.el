@@ -1,7 +1,6 @@
 (deftheme eighters
   "Eighters gonna eight.")
 
-;; TODO: make comment foreground brighter? (eg ala linum, shadow)
 ;; TODO: make "bold" face whiter? (see Man-overstrike)
 ;; TODO: make diff faces stand out more
 
@@ -13,6 +12,8 @@
  'eighters
  '(default ((t (:background "gray20" :foreground "gainsboro"))))
  '(fringe ((t (:foreground "gray50"))))
+ '(shadow ((t (:foreground "gray50"))))
+ '(vertical-border ((t (:foreground "gray50"))))
  '(escape-glyph ((t (:foreground "red2"))))
  '(minibuffer-prompt ((t (:foreground "steelblue1" :weight bold))))
  '(highlight ((t (:background "gray25"))))
@@ -41,7 +42,6 @@
  '(mode-line ((t (:inverse-video t))))
  '(mode-line-inactive ((t (:foreground "gray70" :background "gray25" :inherit (mode-line)))))
  '(mode-line-buffer-id ((t (:weight bold))))
- '(vertical-border ((t (:foreground "gray50"))))
  '(ediff-even-diff-A ((t (:background "gray25"))))
  '(ediff-odd-diff-A ((t (:background "gray25"))))
  '(ediff-even-diff-B ((t (:background "gray25"))))
@@ -78,6 +78,7 @@
  '(sh-heredoc ((t (:foreground "gold"))))
  '(erc-input-face ((t (:foreground "brown1"))))
  '(erc-my-nick-face ((t (:foreground "brown1" :weight bold))))
+ '(magit-blame-highlight ((t (:inherit (highlight shadow)))))
  '(magit-diff-added ((t (:inherit (diff-added)))))
  '(magit-diff-added-highlight ((t (:inherit (diff-added)))))
  '(magit-diff-removed ((t (:inherit (diff-removed)))))
